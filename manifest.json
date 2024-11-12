@@ -11,7 +11,7 @@
   "scope": "./",
   "theme_color": "#000",
   "background_color": "#fff",
-  "display": "standalone",
+  "display": "browser",
   "icons": [
     {
       "src": "static/icon.png",
