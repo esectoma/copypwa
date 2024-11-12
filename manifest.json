@@ -1,7 +1,7 @@
 {
   "id": "barry_first_pwa",
-  "name": "QPWA",
-  "short_name": "QPWA",
+  "name": "SPM(PWA)",
+  "short_name": "SPM(PWA)",
   "description": "",
   "orientation": "any",
   "display_Override": [
