@@ -1,11 +1,11 @@
 {
-   "id": "djwkorc0xq",
-  "name": "Driptop",
-  "short_name": "Driptop",
+  "id": "barry_first_pwa",
+  "name": "QPWA",
+  "short_name": "QPWA",
   "description": "",
   "orientation": "any",
   "display_Override": [
-      "window-controls-overlay"
+    "window-controls-overlay"
   ],
   "start_url": "./index.html",
   "scope": "./",
@@ -14,39 +14,34 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "static/favicon-128.png",
+      "src": "static/icon.png",
       "sizes": "128x128"
     },
     {
-      "src": "static/favicon-256.png",
+      "src": "static/icon.png",
       "sizes": "256x256"
     },
     {
-      "src": "static/favicon-512.png",
+      "src": "static/icon.png",
       "sizes": "512x512"
     }
   ],
   "screenshots": [
-  
-	{
-	  "src": "static/17172036040516475.png",
-	  "sizes": "720x1280"
-	},
-  
-	{
-	  "src": "static/17172036137827088.png",
-	  "sizes": "720x1280"
-	},
-  
-	{
-	  "src": "static/17172036214434195.png",
-	  "sizes": "720x1280"
-	},
-  
-	{
-	  "src": "static/17172036275483579.png",
-	  "sizes": "720x1280"
-	}
-  
+    {
+      "src": "static/17172036040516475.png",
+      "sizes": "720x1280"
+    },
+    {
+      "src": "static/17172036137827088.png",
+      "sizes": "720x1280"
+    },
+    {
+      "src": "static/17172036214434195.png",
+      "sizes": "720x1280"
+    },
+    {
+      "src": "static/17172036275483579.png",
+      "sizes": "720x1280"
+    }
   ]
 }
