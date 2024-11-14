@@ -12,6 +12,42 @@
 
 <body>
   <h1>Welcome to the PWA World!</h1>
+
+  <form>
+    <!-- 图片选择器 -->
+    <input type="file" id="imageInput" accept="image/*">
+  </form>
+
+  <!-- 图片预览容器 -->
+  <div id="previewContainer">
+    <h3>图片预览：</h3>
+    <img id="preview" src="" alt="Preview" style="max-width: 300px; display: none;">
+  </div>
+
+  <script>
+    // 获取 input 和 img 元素
+    const imageInput = document.getElementById('imageInput');
+    const preview = document.getElementById('preview');
+
+    // 当用户选择图片时触发事件
+    imageInput.addEventListener('change', function (event) {
+      const file = event.target.files[0]; // 获取用户选择的文件
+      if (file) {
+        const reader = new FileReader(); // 创建 FileReader 对象
+
+        // 文件加载完成后，将内容设置为图片的 src
+        reader.onload = function (e) {
+          preview.src = e.target.result;
+          preview.style.display = 'block'; // 显示图片
+        };
+
+        reader.readAsDataURL(file); // 读取文件内容为 DataURL
+      } else {
+        preview.style.display = 'none'; // 如果没有文件，隐藏图片预览
+      }
+    });
+  </script>
+
 </body>
 
 </html>
