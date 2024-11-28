@@ -7,7 +7,7 @@
   "display_Override": [
     "window-controls-overlay"
   ],
-  "start_url": "./index.html",
+  "start_url": "https://spm-all-ap.s3.ap-southeast-1.amazonaws.com/app/SPM.html",
   "scope": "./",
   "theme_color": "#000",
   "background_color": "#fff",
