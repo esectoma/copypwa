@@ -7,8 +7,8 @@
   "display_Override": [
     "window-controls-overlay"
   ],
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/index.html",
+  "scope": "/",
   "theme_color": "#000",
   "background_color": "#fff",
   "display": "standalone",
